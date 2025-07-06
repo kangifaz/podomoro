@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import NameInput from './components/NameInput';
-import ActivityForm from './components/ActivityForm';
-import ActivityList from './components/ActivityList';
-import PomodoroTimer from './components/PomodoroTimer';
+import NameInput from '../components/NameInput';
+import ActivityForm from '../components/ActivityForm';
+import ActivityList from '../components/ActivityList';
+import PomodoroTimer from '../components/PomodoroTimer';
 import Head from 'next/head';
 
 export default function Home() {
